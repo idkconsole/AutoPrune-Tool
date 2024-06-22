@@ -1,0 +1,7 @@
+{
+    "token": "",
+    "target_server_id": 123456789,
+    "wall_role_id": 0,
+    "is_wall_role_enabled": false,
+    "prune_reason": "Inactive for 1 day"
+}
