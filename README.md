@@ -1,12 +1,34 @@
-Introducing the AutoPrune-Tool, a reliable solution for swiftly pruning a server with a single keystroke. This tool is designed to expedite the pruning process in instances where the user possesses administrative permissions or the ability to kick members.
+# Auto Prune Bot
 
-To set up this tool, simply follow these steps: 
+A Discord bot that automatically prunes members based on role changes.
 
-1. Locate Line 8 and enter your unique token to authenticate access to your server.
+## Features
 
-2. Proceed to Line 9 and enter the corresponding Guild ID of the server you wish to prune.
+- Automatically prunes members based on their role changes.
+- Configurable to enable or disable wall role logic.
+- Uses intensity-logger for logging.
 
-3. If the Guild ID in question has a designated Wall Role, enter the Wall Role ID on Line 10. If not, enter "False". 
+## Requirements
 
-By utilizing the AutoPrune-Tool, you can confidently and expeditiously perform necessary pruning operations with ease.
+- Python 3.8+
+- `discord.py==1.7.3`
+- `intensity-logger==0.1.2`
 
+## Installation
+
+1. Clone the repository or download the script files.
+2. Navigate to the project directory.
+3. Install the required packages:
+
+```sh
+pip install -r requirements.txt
+```
+
+## Configuration
+Edit the `main.py` file to set the following variables:
+
+`token`: Your Discord bot token.
+`target_server_id`: The ID of the target server.
+`wall_role_id`: The ID of the wall role.
+`is_wall_role_enabled`: Set to True to enable wall role logic, False to disable.
+`prune_reason`: The reason for pruning members.
