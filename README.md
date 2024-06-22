@@ -27,8 +27,11 @@ pip install -r requirements.txt
 ## Configuration
 Edit the `main.py` file to set the following variables:
 
-`token`: Your Discord bot token.
+`token`: Your Discord account token.
 `target_server_id`: The ID of the target server.
+
 `wall_role_id`: The ID of the wall role.
+
 `is_wall_role_enabled`: Set to True to enable wall role logic, False to disable.
+
 `prune_reason`: The reason for pruning members.
