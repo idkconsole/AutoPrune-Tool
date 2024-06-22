@@ -1,6 +1,6 @@
-# Auto Prune Bot
+# Auto Prune Tool
 
-A Discord bot that automatically prunes members based on role changes.
+A simple tool that automatically prunes discord server members based on role changes.
 
 ## Features
 
